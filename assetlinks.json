@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.cameraprovider",
+    "sha256_cert_fingerprints":
+    ["61:05:C5:02:8A:19:CD:74:1A:B6:0C:56:66:99:05:50:DB:14:C8:3E:52:68:BA:FB:39:A2:01:B2:71:6F:68:98"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://closestory.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.cameraprovider",
+    "sha256_cert_fingerprints":
+    ["61:05:C5:02:8A:19:CD:74:1A:B6:0C:56:66:99:05:50:DB:14:C8:3E:52:68:BA:FB:39:A2:01:B2:71:6F:68:98"]
+  }
+}]
